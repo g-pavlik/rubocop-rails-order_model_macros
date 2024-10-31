@@ -1,7 +1,7 @@
 module RuboCop
   module Cop
     module Rails
-      class OrderModelMacros < Cop
+      class OrderModelMacros < Base
         include RuboCop::Rails::OrderModelMacros::Configuration
 
         MSG = "Macros are not properly sorted."
